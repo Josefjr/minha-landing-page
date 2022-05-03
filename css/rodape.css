@@ -1,0 +1,119 @@
+.wraper-button {
+    padding-bottom: 80px;
+    padding-top: 40px;
+  }
+  .button {
+    background-color: #fed136;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    padding: 22px 52px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #fed136;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    padding: 22px 52px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .wraper-footer {
+    height: auto;
+    width: 100%;
+    margin: 100px auto;
+    background-color: white;
+  }
+  .wraper-foot {
+    height: auto;
+    width: 940px;
+    display: grid;
+    margin: 0 auto;
+    font-size: 0;
+  }
+  .foot {
+    height: auto;
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;  
+    margin: 10px auto;
+    
+  }
+  .foot p {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #555555;  
+  }
+  
+  .circle-footer-twitter {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 8px;
+    background-image: url(https://i.postimg.cc/k5f5vXyg/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+  }
+  .circle-footer-twitter:hover {
+    background-color: #00aced;
+    border: none;
+  }
+  .circle-footer-google {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 8px;
+    background-image: url(https://i.postimg.cc/xTpD5Jw7/google.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+  }
+  .circle-footer-google:hover {
+    background-color: #da2713;
+    border: none;
+  }
+  .circle-footer-facebook {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 8px;
+    background-image: url(https://i.postimg.cc/GmM2kmKh/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+  }
+  .circle-footer-facebook:hover {
+    background-color: #3b5998;
+    border: none;
+  }
+  .circle-footer-pinterest {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 8px;
+    background-image: url(https://i.postimg.cc/rm5MYV14/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+  }
+  .circle-footer-pinterest:hover {
+    background-color: #cb2028;
+    border: none;
+  }

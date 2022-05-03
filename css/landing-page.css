@@ -31,7 +31,7 @@ body {
     font-style: italic;
     margin-top: 10px;
     font-size: 29px;
-    width: 350px;
+    width: 500px;
     color: #5d5d5d;
 }
 
@@ -94,7 +94,9 @@ body {
 .landing-page .minha-foto {
     width: 55%;
     float: right;
-    margin-top: 35px;
+    margin-top: 85px;
+    padding-right: 15px;
+    padding-left: 95px;
 }
 
 .landing-page .minha-foto img {
