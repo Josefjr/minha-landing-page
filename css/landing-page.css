@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -41,6 +37,7 @@ body {
     margin: 0;
     width: 100%;
     text-align: right;
+    font-size: 18px;
 }
 
 .landing-page .header-area .links li {
@@ -92,17 +89,19 @@ body {
 
 
 .landing-page .minha-foto {
-    width: 55%;
+    width: 40%;
     float: right;
     margin-top: 85px;
     padding-right: 15px;
     padding-left: 95px;
+    
 }
 
 .landing-page .minha-foto img {
     max-width: 85%;
     border-radius: 150%;
     box-shadow: 6px 6px 20px #6c63ff;
+    
 }
 
 .clearfix {

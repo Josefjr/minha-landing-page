@@ -1,21 +1,47 @@
-<section class="institucional container">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formulario.css">
 
-    <div class="institucional__conteudo">
-        <div class="institucional__informacoes">
+</head>
+<body>
 
-            <address class="institucional__endereco">
-                Rua Nicolau, N°210</br>
-                Aruja, São Paulo
-                <article class="institucional__contato">
-                    <p>
-                        <a href="tel:+5511998602720" class="institucional__contato-telefone">(11) 99860-2720</a>
-                        ou
-                        <a href="jnrhp@hotmail.com"
-                            class="institucional__contato-email">jnrhp@hotmail.com</a>
-                    </p>
-                </article>
-            </address>
+    <section class="form_wrap">
 
-        </div>
-    </div>
-</section>
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
+            </section>
+        </section>
+
+        <form action="" class="form_contact">
+            <h2>Enviar uma Mensagem</h2>
+            <div class="user_info">
+                <label for="names">Nome *</label>
+                <input type="text" id="names">
+
+                <label for="phone">Telefone / Celular</label>
+                <input type="text" id="phone">
+
+                <label for="email">Email *</label>
+                <input type="text" id="email">
+
+                <label for="mensaje">Mensagem *</label>
+                <textarea id="mensaje"></textarea>
+
+                <input type="button" value="Enviar Mensaje" id="btnSend">
+            </div>
+            <script src="./js/validador_for.js" type="module"></script>
+        </form>
+    </section>
+    
+</body>
+</html>
